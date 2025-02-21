@@ -72,7 +72,7 @@ For production use, consider implementing:
 ## 👥 Author  
 
 ### GIAIC Student:
-**Section A**
+**Section A,**
 **Moiz Mansoori**  
 **5691**  
 
