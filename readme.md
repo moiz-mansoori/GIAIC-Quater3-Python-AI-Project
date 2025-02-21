@@ -4,7 +4,7 @@ A web application built with **Streamlit** to help users track and develop their
 
 ## 🔥 About the Project
 
-This project is part of **Quarter 3, Section A**, under the guidance of **Sir Zia Khan**. The original project details can be found [here](https://github.com/panaversity/learn-modern-ai-python/blob/main/Growth_Mindset_Challenge.md).
+This project is the ** first project of Quarter 3, Section A**, under the guidance of **Sir Zia Khan**. The original project details can be found [here](https://github.com/panaversity/learn-modern-ai-python/blob/main/Growth_Mindset_Challenge.md).
 
 The goal of this application is to encourage self-improvement by providing users with tools to reflect on their learning experiences, track progress, and access valuable educational content on developing a **growth mindset**.
 
