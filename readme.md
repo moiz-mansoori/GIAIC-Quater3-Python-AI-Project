@@ -1,10 +1,20 @@
+# Growth Mindset Journey Tracker & Unit Converter
+
+This repository contains **two projects** built with **Streamlit**:
+
+1. **Growth Mindset Journey Tracker** - A web application to help users track and develop their growth mindset through daily reflections, progress visualization, and educational resources.
+
+2. **Unit Converter** - A **Streamlit-based Unit Converter** that allows users to easily convert values between different measurement units. The app supports multiple categories such as **length, mass, area, speed, temperature, and more**.
+
+---
+
 # Growth Mindset Journey Tracker
 
 A web application built with **Streamlit** to help users track and develop their growth mindset through daily reflections, progress visualization, and educational resources.
 
 ## 🔥 About the Project
 
-This project is the ** first project of Quarter 3**, under the guidance of **Sir Zia Khan**. The original project details can be found [here](https://github.com/panaversity/learn-modern-ai-python/blob/main/Growth_Mindset_Challenge.md).
+This project is the **first project of Quarter 3, Section A**, under the guidance of **Sir Zia Khan**. The original project details can be found [here](https://github.com/panaversity/learn-modern-ai-python/blob/main/Growth_Mindset_Challenge.md).
 
 The goal of this application is to encourage self-improvement by providing users with tools to reflect on their learning experiences, track progress, and access valuable educational content on developing a **growth mindset**.
 
@@ -69,10 +79,78 @@ For production use, consider implementing:
 - Enhanced session management  
 - Rate limiting to prevent unauthorized login attempts  
 
+---
+
+# Unit Converter
+
+A **lightweight and user-friendly** unit conversion web app built with **Streamlit**.
+
+## 🚀 Features
+- **Multiple Unit Categories**: Convert units across various domains like **length, mass, area, speed, digital storage, pressure, etc.**
+- **Temperature Conversion Handling**: Converts **Celsius, Fahrenheit, and Kelvin** using proper formulas.
+- **Fuel Economy Conversions**: Supports **miles per gallon, liters per 100 km**, and more.
+- **Live Conversion**: Instant results based on input values.
+- **User-Friendly Interface**: Simple dropdowns for unit selection and real-time calculations.
+- **Common Conversions Table**: Displays frequently used conversions for reference.
+
+## 📌 Supported Categories
+- **Length** (meters, kilometers, miles, inches, etc.)
+- **Mass** (grams, kilograms, pounds, tons, etc.)
+- **Area** (square meters, acres, hectares, etc.)
+- **Speed** (m/s, km/h, mph, knots, etc.)
+- **Temperature** (Celsius, Fahrenheit, Kelvin)
+- **Time** (seconds, minutes, hours, days, etc.)
+- **Volume** (liters, gallons, cubic meters, etc.)
+- **Pressure** (Pascal, bar, PSI, atm, etc.)
+- **Digital Storage** (bytes, kilobytes, megabytes, terabytes, etc.)
+- **Energy** (joules, calories, watt-hours, etc.)
+- **Plane Angle** (degrees, radians, etc.)
+- **Data Transfer Rate** (bps, kbps, Mbps, Gbps, etc.)
+
+## 🛠️ How It Works
+1. **Select a Category** from the sidebar dropdown.
+2. **Choose "From" and "To" Units** from the dropdown lists.
+3. **Enter the Value** in the input field.
+4. The converted result appears **instantly**.
+5. **See the conversion formula** used in calculations.
+6. **Check Common Conversions** for quick reference.
+
+## 🔢 Conversion Formulas
+### Temperature
+- **Celsius to Fahrenheit**: \( °F = (°C × 9/5) + 32 \)
+- **Fahrenheit to Celsius**: \( °C = (°F - 32) × 5/9 \)
+- **Celsius to Kelvin**: \( K = °C + 273.15 \)
+- **Kelvin to Celsius**: \( °C = K - 273.15 \)
+- **Fahrenheit to Kelvin**: \( K = (°F - 32) × 5/9 + 273.15 \)
+- **Kelvin to Fahrenheit**: \( °F = (K - 273.15) × 9/5 + 32 \)
+
+### Fuel Economy
+- **Liters per 100 km to MPG (US)**: \( MPG = 235.215 / (L/100km) \)
+
+Other categories follow **direct unit-to-unit conversion ratios**.
+
+## 🎯 Requirements
+To run the application, ensure you have **Python 3.x** installed and the following dependencies:
+
+```bash
+pip install streamlit pandas
+```
+
+## ▶️ Running the App
+Run the following command in your terminal or command prompt:
+
+```bash
+streamlit run app.py
+```
+
+This will launch the **Unit Converter** in your browser.
+
+✅ **A simple, fast, and efficient unit converter built with Streamlit!**
+
 ## 👥 Author  
 
 ### GIAIC Student:
-**Section A,**
+ 
 **Moiz Mansoori**  
 **5691**  
 
@@ -81,4 +159,3 @@ For production use, consider implementing:
 For any questions or issues, feel free to reach out:  
 - 📧 Email: [mansoorimoiz03@gmail.com](mailto:mansoorimoiz03@gmail.com)  
 - 🛠 Open an issue in the repository
-
