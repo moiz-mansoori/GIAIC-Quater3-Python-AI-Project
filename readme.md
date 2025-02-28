@@ -39,7 +39,12 @@ The goal of this application is to encourage self-improvement by providing users
 ### 📚 Educational Resources  
 - Learn about **growth mindset principles**  
 - Access recommended books, articles, and videos  
-- Explore learning tips and strategies  
+- Explore learning tips and strategies
+
+## 🚀 Deployment
+
+The Web App with Streamlit Deployed URL is live and accessible at:
+[**Web App with Streamlit**](https://giaic-quater3-python-ai-project-zd9ubtdksipnpwbkzrbtje.streamlit.app/)
 
 ## 📝 Usage Guide  
 
