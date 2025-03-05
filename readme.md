@@ -1,10 +1,16 @@
-# Growth Mindset Journey Tracker & Unit Converter
+# GIAIC Quarter-3 Projects
 
-This repository contains **two projects** built with **Streamlit**:
+## Growth Mindset Journey Tracker, Unit Converter & Password Strength Meter
+
+This repository contains **three projects** built with **Streamlit** as part of the **GIAIC Quarter-3 curriculum**. These projects focus on practical applications of Python in web development, data handling, and user interaction. Under the guidance of **Sir Zia Khan**, these projects aim to enhance problem-solving skills and proficiency in **Streamlit**, a powerful Python framework for building interactive web applications.
+
+### 📌 Projects Overview:
 
 1. **Growth Mindset Journey Tracker** - A web application to help users track and develop their growth mindset through daily reflections, progress visualization, and educational resources.
 
 2. **Unit Converter** - A **Streamlit-based Unit Converter** that allows users to easily convert values between different measurement units. The app supports multiple categories such as **length, mass, area, speed, temperature, and more**.
+
+3. **Password Strength Meter** - A secure and interactive web app that analyzes password strength, provides feedback, and generates strong passwords.
 
 ---
 
@@ -138,8 +144,34 @@ A **lightweight and user-friendly** unit conversion web app built with **Streaml
 
 Other categories follow **direct unit-to-unit conversion ratios**.
 
+---
+
+# Password Strength Meter
+
+A **Streamlit-based** web app that evaluates password strength and provides feedback on improving security.
+
+## 🚀 Features
+- **Real-time Password Analysis**: Checks password strength as users type.
+- **Feedback & Suggestions**: Provides recommendations for stronger passwords.
+- **Password Generation**: Generates secure, random passwords.
+- **Color-Coded Strength Indicator**: Shows weak, medium, or strong passwords.
+- **Secure Handling**: Ensures password security without storing user input.
+
+## 🚀 Deployment
+- The Password Strength Meter app is live and accessible at:
+[**Password Strength Meter App**](https://gba5sbnxegugrhevgrw4uc.streamlit.app/)
+
+## 📝 Usage Guide
+1. **Enter a password**: The app will analyze its strength.
+2. **View feedback**: Suggestions for improving password security.
+3. **Generate a strong password**: Use the password generator for enhanced security.
+
+✅ **A simple yet powerful tool for ensuring strong password security!**
+
+---
+
 ## 🎯 Requirements
-To run the application, ensure you have **Python 3.x** installed and the following dependencies:
+To run the applications, ensure you have **Python 3.x** installed and the following dependencies:
 
 ```bash
 pip install streamlit pandas
@@ -152,9 +184,6 @@ Run the following command in your terminal or command prompt:
 streamlit run app.py
 ```
 
-This will launch the **Unit Converter** in your browser.
-
-✅ **A simple, fast, and efficient unit converter built with Streamlit!**
 
 ## 👥 Author  
 
