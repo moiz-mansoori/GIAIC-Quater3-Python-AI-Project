@@ -1,6 +1,6 @@
 # GIAIC Quarter-3 Projects
 
-## Growth Mindset Journey Tracker, Unit Converter & Password Strength Meter
+## Growth Mindset Journey Tracker, Unit Converter, Password Strength Meter & Library manager
 
 This repository contains **three projects** built with **Streamlit** as part of the **GIAIC Quarter-3 curriculum**. These projects focus on practical applications of Python in web development, data handling, and user interaction. Under the guidance of **Sir Zia Khan**, these projects aim to enhance problem-solving skills and proficiency in **Streamlit**, a powerful Python framework for building interactive web applications.
 
@@ -11,6 +11,9 @@ This repository contains **three projects** built with **Streamlit** as part of 
 2. **Unit Converter** - A **Streamlit-based Unit Converter** that allows users to easily convert values between different measurement units. The app supports multiple categories such as **length, mass, area, speed, temperature, and more**.
 
 3. **Password Strength Meter** - A secure and interactive web app that analyzes password strength, provides feedback, and generates strong passwords.
+
+4. **Library Manager** - A command-line personal library manager that allows users to manage their book collection, track reading progress, and view library statistics.
+
 
 ---
 
@@ -169,6 +172,25 @@ A **Streamlit-based** web app that evaluates password strength and provides feed
 ✅ **A simple yet powerful tool for ensuring strong password security!**
 
 ---
+
+# Library Manager
+
+A **command-line personal library manager** that allows users to manage their book collection, track reading progress, and view library statistics. 
+
+## 📌 Features
+
+📚 **Add & Remove Books**: Easily add books with details like title, author, year, genre, and read status.
+
+🔍 **Search Books**: Find books by title or author.
+
+📖 **View Library**: Display all stored books with reading status.
+
+📊 **Track Reading Progress**: See the percentage of books read.
+
+💾 **Save & Load Data**: Books are saved in `library.txt` for persistence.
+
+---
+
 
 ## 🎯 Requirements
 To run the applications, ensure you have **Python 3.x** installed and the following dependencies:
