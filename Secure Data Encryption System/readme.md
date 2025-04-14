@@ -21,5 +21,3 @@
 **GIAIC Assignment 05 – Quarter 3**  
 **Project Title:** SecureVault  
 **Author:** Moiz Ahmed Mansoori (5691)
-**Framework:** Streamlit  
-**Language:** Python  
