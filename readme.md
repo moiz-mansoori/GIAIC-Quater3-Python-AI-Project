@@ -1,8 +1,8 @@
 # GIAIC Quarter-3 Projects
 
-## Growth Mindset Journey Tracker, Unit Converter, Password Strength Meter & Library manager
+## Growth Mindset Journey Tracker, Unit Converter, Password Strength Meter, Library manager & Secure Data Encryption System
 
-This repository contains **three projects** built with **Streamlit** as part of the **GIAIC Quarter-3 curriculum**. These projects focus on practical applications of Python in web development, data handling, and user interaction. Under the guidance of **Sir Zia Khan**, these projects aim to enhance problem-solving skills and proficiency in **Streamlit**, a powerful Python framework for building interactive web applications.
+This repository contains **Five projects** built with **Streamlit** as part of the **GIAIC Quarter-3 curriculum**. These projects focus on practical applications of Python in web development, data handling, and user interaction. Under the guidance of **Sir Zia Khan**, these projects aim to enhance problem-solving skills and proficiency in **Streamlit**, a powerful Python framework for building interactive web applications.
 
 ### 📌 Projects Overview:
 
@@ -13,6 +13,8 @@ This repository contains **three projects** built with **Streamlit** as part of 
 3. **Password Strength Meter** - A secure and interactive web app that analyzes password strength, provides feedback, and generates strong passwords.
 
 4. **Library Manager** - A command-line personal library manager that allows users to manage their book collection, track reading progress, and view library statistics.
+
+5. **SecureVault – Secure Data Encryption System** -The application enables users to securely encrypt, store, and retrieve sensitive information using custom passkeys, all through an intuitive and user-friendly web interface.
 
 
 ---
@@ -191,19 +193,35 @@ A **command-line personal library manager** that allows users to manage their bo
 
 ---
 
+# 🔐 SecureVault – Secure Data Encryption System
+
+**SecureVault** is a secure data encryption system allows users to **encrypt, store, and retrieve sensitive information** using custom passkeys, all through a user-friendly web interface built with **Streamlit**.
+
+## ✅ Features
+
+- 🔐 **Encrypt & Store** any sensitive data with a custom passkey
+- 🔓 **Retrieve** data securely using the correct encrypted string and passkey
+- ⛔ **Lockout Mechanism** after 3 failed decryption attempts
+- 🔑 **Admin Panel** for vault statistics, unlocking, and reset
+- 🧠 Easy-to-use interface with real-time feedback
+- 🗝️ Automatic key generation using `Fernet` encryption
+
+
+---
+
 
 ## 🎯 Requirements
 To run the applications, ensure you have **Python 3.x** installed and the following dependencies:
 
 ```bash
-pip install streamlit pandas
+pip install streamlit
 ```
 
 ## ▶️ Running the App
 Run the following command in your terminal or command prompt:
 
 ```bash
-streamlit run app.py
+python -m streamlit run (filename).py
 ```
 
 
