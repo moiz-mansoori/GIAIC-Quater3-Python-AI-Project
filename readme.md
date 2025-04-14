@@ -206,6 +206,11 @@ A **command-line personal library manager** that allows users to manage their bo
 - 🧠 Easy-to-use interface with real-time feedback
 - 🗝️ Automatic key generation using `Fernet` encryption
 
+## 🚀 Deployment
+
+The App with Streamlit Deployed URL is live and accessible at:
+[**SecureVault with Streamlit**](None)
+
 
 ---
 
